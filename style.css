@@ -1,0 +1,664 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+body {
+  /* background-color: rgb(245, 205, 176); */
+  
+}
+body > header {
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+body > header > div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+body > header > div > a {
+  font-weight: 600;
+  font-family: sans-serif;
+  color: rgb(88, 43, 43);
+  display: flex;
+  align-items: center;
+}
+body > header > div > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body > header > div > ul > li:nth-child(1) > a {
+  margin-left: 20px;
+  color: rgb(88, 43, 43);
+  font-weight: 500;
+  font-family: sans-serif;
+}
+body > header > div > ul > li:nth-child(2) > a {
+  margin-left: 20px;
+  color: rgb(88, 43, 43);
+  font-weight: 500;
+  font-family: sans-serif;
+}
+body > header > div > ul > li:nth-child(3) > a {
+  margin-left: 20px;
+  color: rgb(88, 43, 43);
+  font-weight: 500;
+  font-family: sans-serif;
+}
+body > header > div > ul > li:nth-child(4) > a {
+  margin-left: 20px;
+  color: rgb(88, 43, 43);
+  font-weight: 500;
+  font-family: sans-serif;
+}
+body > header > div > ul > li:nth-child(5) > a {
+  margin-left: 20px;
+  color: rgb(88, 43, 43);
+  font-family: sans-serif;
+  font-weight: 500;
+}
+body > header > div > div > i {
+  margin-right: 30px;
+  font-size: 20px;
+}
+body > header > div > div > button {
+  padding: 11px 45px;
+  background-color: transparent;
+  color: rgb(88, 43, 43);
+  cursor: pointer;
+}
+body > section.menu {
+  padding: 70px 10%;
+  display: grid;
+  width: 100%;
+  min-height: 90vh;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  grid-gap: 6rem;
+}
+body > section > div:nth-child(2) {
+  z-index: 5;
+}
+body > section > div:nth-child(2) > img {
+  max-width: 90%;
+  width: 370px;
+  height: auto;
+  border-radius: 0 0 0 60px;
+}
+body > section > div:nth-child(1) > h1 {
+  font-size: 4rem;
+  color: rgb(88, 43, 43);
+  text-transform: capitalize;
+}
+body > section > div:nth-child(1) > p {
+  font-size: 18px;
+  margin: 12px;
+  font-family: monospace;
+}
+body > section > div:nth-child(1) > button {
+  padding: 11px 45px;
+  background-color: rgb(88, 43, 43);
+  color: white;
+  cursor: pointer;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-top: 25px;
+}
+body > section > div:nth-child(3) {
+  width: 60%;
+  height: 30%;
+  position: absolute;
+  right: 0;
+  top: 502px;
+  background-color: rgb(248, 212, 186);
+  z-index: 0;
+}
+body > section > div:nth-child(1) {
+  z-index: 4;
+}
+body > section > div:nth-child(3) > h3 {
+  position: relative;
+  top: 20px;
+  left: 15%;
+  width: 200px;
+}
+#women {
+  text-align: center;
+  background-color: white;
+}
+#women > div.heding {
+  padding: 14px;
+}
+#women > div:nth-child(2) > div > div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  margin-top: 12px;
+}
+#women > div:nth-child(2) > div > div > div {
+  width: 300px;
+  height: 100%;
+  padding: 12px;
+  margin: auto;
+}
+#women > div:nth-child(2) > div > div > div > img {
+  width: 220px;
+  max-height: 100%;
+  height: auto;
+}
+#women > div.heding > p {
+  margin-top: 20px;
+  font-size: 14px;
+}
+body > section.BIX {
+  align-items: center;
+  background-color: white;
+  margin-top: 5%;
+}
+body > section.BIX > div {
+  max-width: 80%;
+  margin: auto;
+  padding: 70px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+body > section.BIX > div > div:nth-child(2) > h1 {
+  font-size: 4rem;
+  color: rgb(88, 43, 43);
+  text-transform: capitalize;
+}
+body > section.BIX > div > div:nth-child(2) {
+  padding: 12px 12px;
+  margin: 0 18px;
+  width: 100%;
+}
+body > section.BIX > div > div:nth-child(2) > p {
+  font-size: 18px;
+  margin: 0 12px;
+  font-family: monospac;
+}
+body > section.BIX > div > div.img-BIX > img {
+  border-radius: 45px 0 0 0;
+}
+body > section.BIX > div.POS {
+  width: 50%;
+  height: 100px;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  right: 15%;
+  top: 1850px;
+  box-shadow: 2px 1px rgb(0, 0, 0, 0.1);
+}
+body > section.BIX > div.POS > div {
+  text-align: center;
+  border-right: black solid;
+  padding: 4px 12px;
+  width: 20%;
+}
+body > section.BIX > div.POS > div:nth-child(2) {
+  text-align: center;
+  border-right: black solid;
+  padding: 4px 12px;
+  width: 20%;
+}
+body > section.BIX > div.POS > div:nth-child(3) {
+  text-align: center;
+  border: none;
+  padding: 4px 12px;
+  width: 20%;
+}
+body > section.BIX > div.POS > div:nth-child(1) > span {
+  font-size: small;
+  color: rgb(88, 43, 43);
+}
+
+body > section.BIX > div.POS > div:nth-child(2) > span {
+  font-size: small;
+  color: rgb(88, 43, 43);
+}
+body > section.BIX > div.POS > div:nth-child(3) > span {
+  font-size: small;
+  color: rgb(88, 43, 43);
+}
+body > section.BIX > div.Grid-BIXs > div:nth-child(2) > p {
+  font-size: 18px;
+  margin: 0 12px;
+  font-family: monospace;
+}
+body > section.BIX > div.Grid-BIXs > div:nth-child(2) {
+  width: 100%;
+  text-align: justify;
+}
+body > section.BIX > div.SCAL {
+  width: 100%;
+}
+body > section.QR {
+  
+  width: 100%;
+  height: 80vh;
+}
+body > section.QR > div.QR-container {
+  margin: 40px 40px 0 40px;
+  width: 100%;
+  height: 90%;
+  background-color: rgb(121, 42, 42);
+  display: flex;
+  flex-direction: row;
+  grid-gap: 1.5rem;
+}
+body > section.QR > div.QR-container > div.QR-heding {
+  width: 25%;
+  padding: 30px;
+  color: white;
+  align-items: center;
+}
+body > section.QR > div.QR-container > div.QR-heding > h1 {
+  font-size: 2.5rem;
+
+  text-transform: capitalize;
+}
+body > section.QR > div.QR-container > div.QR-heding > p {
+  font-size: 1rem;
+  text-align: justify;
+  margin-top: 30px;
+  font-family: sans-serif;
+}
+body > section.QR > div.QR-container > div.QR-heding > button {
+  padding: 11px 45px;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  margin-top: 30px;
+  border: white 2px solid;
+}
+body > section.QR > div.QR-container > div.QR-box > div {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+body > section.QR > div.QR-container > div.QR-box > div > img {
+  width: 100%;
+  height: 60%;
+}
+body > section.QR > div.QR-container > div.QR-box {
+  width: 25%;
+  height: 100%;
+}
+body > section.QR > div.QR-container > div.QR-box > div > div {
+  height: 30%;
+  background: white;
+  padding: 12px 18px;
+}
+body
+  > section.QR
+  > div.QR-container
+  > div.QR-box
+  > div
+  > div
+  > div:nth-child(2) {
+  margin-top: 18px;
+}
+body
+  > section.QR
+  > div.QR-container
+  > div.QR-box
+  > div
+  > div
+  > div:nth-child(2)
+  > span.A {
+  font-weight: bold;
+  color: gray;
+}
+body > section.QR > div.QR-rond {
+  width: 100%;
+  margin: 0 40px;
+  background-color: rgb(121, 42, 42);
+  display: flex;
+  justify-content: space-around;
+}
+body > section.QR > div.QR-rond > div {
+  padding: 2px;
+  margin-bottom: 12px;
+}
+body > section.QR > div.QR-rond > div {
+  width: 300px;
+  display: flex;
+}
+body > section.QR > div.QR-rond > div > div:nth-child(1) {
+  border: 1px white solid;
+  width: 20px;
+  height: 100%;
+  padding: 8px;
+  background: #000;
+  margin-left: 12px;
+  cursor: pointer;
+  border-radius: 100%;
+}
+body > section.QR > div.QR-rond > div > div:nth-child(2) {
+  border: 1px white solid;
+  border-radius: 100%;
+  width: 10px;
+  height: 100%;
+  padding: 8px;
+  cursor: pointer;
+  margin-left: 12px;
+}
+body > section.QR > div.QR-rond > div > div:nth-child(3) {
+  border: 1px white solid;
+  width: 10px;
+  height: 100%;
+  padding: 8px;
+  border-radius: 100%;
+  cursor: pointer;
+  margin-left: 12px;
+}
+body > section.QR > div.QR-rond > div > div:nth-child(4) {
+  border: 1px white solid;
+  border-radius: 100%;
+  width: 10px;
+  height: 100%;
+  padding: 8px;
+  cursor: pointer;
+  margin-left: 12px;
+}
+body > section.PRO{
+  width: 100%;
+  height: 100vh;
+  
+}
+body > section.PRO > div{
+  display: grid;
+  justify-content: center;
+  grid-gap:1.5rem;
+  align-items: center;
+
+}
+ 
+body > section.PRO > div > ul{
+  display: flex;
+  align-items: center;
+   
+
+  
+
+}
+body > section.PRO > div > ul > li:nth-child(1) > a{
+   margin-right:60PX ;
+   border-bottom:2px black solid;
+   font-weight: bold;
+   color: #000;
+}
+body > section.PRO > div > ul > li:nth-child(2) > a{
+  margin-right:60PX ;
+  font-weight: bold;
+  color: rgb(121, 42, 42);
+}
+body > section.PRO > div > ul > li:nth-child(3) > a{
+  margin-right:60PX ;
+  font-weight: bold;
+  color: rgb(121, 42, 42);
+}
+body > section.PRO > div > ul > li:nth-child(4) > a{
+  margin-right:50PX ;
+   font-weight: bold;
+   color: rgb(121, 42, 42);
+}
+body > section.PRO > div > ul > li:nth-child(5) > a{
+  margin-right:50PX ;
+   font-weight: bold;
+   color: rgb(121, 42, 42);
+}
+body > section.PRO > div > h1{
+  text-align: center;
+  
+}
+body > section.PRO > div.PRO-box{
+  display: grid;
+  grid-template-columns: repeat(4 , 2fr);
+  max-width: 80%;
+  margin:20px 10%;
+  
+
+}
+body > section.PRO > div.PRO-box > div{
+  display: grid;
+  row-gap: 1rem;
+  width: 25%;
+  text-align: center;
+  
+
+}
+body > section.PRO > div.PRO-box > div > img{
+  width: 280px;
+  height:250px;
+}
+body > section.Date{
+  width: 100%;
+  height: 100vh;
+  margin:10%; 
+  background-color: rgb(58, 39, 39);
+  padding: 20px;
+
+  
+}
+body > section.Date > div{
+  display: grid;
+  grid-template-columns: repeat(2 ,1fr);
+  
+}
+body > section.Date > div > div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20%;
+}
+body > section.Date > div > div > h1{
+  font-size: 4rem;
+color: rgb(255, 248, 248);
+text-transform: capitalize;
+margin-top: 20px;
+
+
+}
+body > section.Date > div > div > p{
+  margin-top: 28px;
+}
+body > section.Date > div > div > div{
+  display: flex;
+  margin-right: 50px;
+  width: 50%;
+  justify-content: space-between;
+   margin-top: 100px;
+   align-items: center;
+
+}
+body > section.Date > div > div > div > div:nth-child(1){
+  border:2px #000 solid ;
+  padding: 30px;
+  background-color: white;
+}
+body > section.Date > div > div > div > div:nth-child(2){
+  border:2px #000 solid ;
+  padding: 30px;
+  background-color: white;
+}
+body > section.Date > div > div > div > div:nth-child(3){
+  border:2px #000 solid ;
+  padding: 30px;
+  background-color: white;
+}
+body > section.Date > div > div > button{
+  padding: 11px 45px;
+  background-color: rgb(88, 43, 43);
+  color: white;
+  cursor: pointer;
+  border: none;
+  
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-top: 35px;
+   
+}
+body > section.About{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+
+}
+body > section.About > div.hed{
+   text-align: center;
+  
+}
+body > section.About > div.box-hed{
+  height: 60%;
+  display: flex;
+   
+  
+  
+}
+body > section.About > div.box-hed > div{
+  width: 50%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:rgb(247, 232, 204);
+  padding: 40px;
+  margin-left:18px;
+
+}
+body > section.About > div.box-hed > div > h3{
+ text-align: center;
+}
+body > section.About > div.box-hed > div > p{
+  margin-top: 12px;
+  text-align: center;
+}
+body > section.About > div.box-hed > div > img{
+  margin-top: 18px;
+  border-radius: 100%;
+}
+body > section.About > div.box-hed > div > h4{
+  margin-top: 20px;
+}
+body > section.About > nav{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  margin-top: 30px;
+}
+body > section.About > nav > div:nth-child(1){
+  border: 1px rgb(0, 0, 0) solid;
+    width: 20px;
+    height: 20px;
+    padding: 8px;
+    background-color:black;
+    margin-left: 12px;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+body > section.About > nav > div:nth-child(2){
+  border: 1px rgb(0, 0, 0) solid;
+    width: 20px;
+    height: 20px;
+    padding: 8px;
+    background-color: transparent;
+    margin-left: 12px;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+body > section.About > nav > div:nth-child(3){
+  border: 1px rgb(0, 0, 0) solid;
+    width: 20px;
+    height: 20px;
+    padding: 8px;
+    background-color: transparent;
+    margin-left: 12px;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+body > section.About > nav > div:nth-child(4){
+  border: 1px rgb(0, 0, 0) solid;
+    width: 20px;
+    height: 20px;
+    padding: 8px;
+    background-color: transparent;
+    margin-left: 12px;
+    cursor: pointer;
+    border-radius: 100%;
+}
+body > section.Fot > div > div{
+  width: 100%;
+   
+}
+body > section.Fot > div{
+  width: 100%;
+  
+}
+body > section.Fot > div > div{
+  display: flex;
+  width: 100%;
+}
+body > section.Fot > div > div:nth-child(2){
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  background-color: rgb(65, 23, 23);
+
+}
+body > section.Fot > div > div:nth-child(2) > ul{
+  display: flex;
+  
+}
+body > section.Fot > div > div:nth-child(2) > p{
+  margin-top: 20px;
+}
+body > section.Fot > div > div:nth-child(2) > ul > li:nth-child(1) > a{
+  color: white;
+}
+body > section.Fot > div > div:nth-child(2) > ul > li:nth-child(2) > a{
+  margin-left: 20px;
+  color: white;
+}
+
+body > section.Fot > div > div:nth-child(2) > ul > li:nth-child(3) > a{
+  margin-left: 20px;
+  color: white;
+}
+body > section.Fot > div > div:nth-child(2) > ul > li:nth-child(4) > a{
+  margin-left: 20px;
+  color: white;
+}
+body > section.Fot > div > div:nth-child(2) > ul > li:nth-child(5) > a{
+  margin-left: 20px;
+  color: white;
+}
+
+
